@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char Nama[50], NIM [14], TTL[30], Alamat[100], Hobby[50], HP[20];
-    int Kelas;
+    char name[50], nim[14], ttl[30], address[100], hobby[50], phone_number[20];
+    int paralel;
 
     printf("Masukkan nama Anda: ");
     scanf(" %[^\n]", Nama);
