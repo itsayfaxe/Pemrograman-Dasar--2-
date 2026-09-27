@@ -5,5 +5,5 @@ j = int(input(""))
 x = int(input(""))
 y = int(input(""))
 
-operasi = (a - b) * (i / j) - (x + y)
-print(f"{operasi:.3f}")
+operation = (a - b) * (i / j) - (x + y)
+print(f"{operation:.3f}")

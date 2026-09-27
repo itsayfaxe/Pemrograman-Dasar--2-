@@ -2,6 +2,7 @@ import math
 
 r = int(input(""))
 t = int(input(""))
+
 pi = 22/7
 circumference = 2 * pi * r
 area = pi * r * 2 * (t + r)

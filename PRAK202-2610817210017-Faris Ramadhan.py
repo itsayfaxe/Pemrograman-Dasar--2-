@@ -1,10 +1,10 @@
-Satu = input("Masukkan Nilai Pertama: ")
-Dua = input("Masukkan Nilai Kedua: ")
+one = input("Masukkan Nilai Pertama: ")
+two = input("Masukkan Nilai Kedua: ")
 
-Pertama = float(Satu)
-Kedua = float(Dua)
+first = float(one)
+second = float(two)
 
-Hasil = Pertama + Kedua
+result = first + second
 
-print(f'Hasil dari penjumlahan nilai pertama "{Satu}" dan nilai kedua "{Dua}" adalah {Hasil:.2f}')
+print(f'Hasil dari penjumlahan nilai pertama "{one}" dan nilai kedua "{two}" adalah {result:.2f}')
 

@@ -5,33 +5,33 @@ int main() {
     int paralel;
 
     printf("Masukkan nama Anda: ");
-    scanf(" %[^\n]", Nama);
+    scanf(" %[^\n]", name);
 
     printf("Masukkan NIM Anda: ");
-    scanf(" %[^\n]", NIM);
+    scanf(" %[^\n]", nim);
 
     printf("Masukkan kelas paralel Anda: ");
-    scanf("%d", &Kelas);
+    scanf("%d", &paralel);
 
     printf("Masukkan tempat/tanggal lahir Anda: ");
-    scanf(" %[^\n]", TTL);
+    scanf(" %[^\n]", ttl);
 
     printf("Masukkan alamat Anda: ");
-    scanf(" %[^\n]", Alamat);
+    scanf(" %[^\n]", address);
 
     printf("Masukkan hobby Anda: ");
-    scanf(" %[^\n]", Hobby);
+    scanf(" %[^\n]", hobby);
 
     printf("Masukkan nomor HP Anda: ");
-    scanf(" %[^\n]", HP);
+    scanf(" %[^\n]", phone_number);
 
-    printf("Nama                     : %s\n", Nama);
-    printf("NIM                      : %s\n", NIM);
-    printf("Kelas Paralel            : %d\n", Kelas);
-    printf("Tempat/Tanggal lahir     : %s\n", TTL);
-    printf("Alamat                   : %s\n", Alamat);
-    printf("Hobby                    : %s\n", Hobby);
-    printf("No. HP                   : %s\n", HP);
+    printf("Nama                     : %s\n", name);
+    printf("NIM                      : %s\n", nim);
+    printf("Kelas Paralel            : %d\n", paralel);
+    printf("Tempat/Tanggal lahir     : %s\n", ttl);
+    printf("Alamat                   : %s\n", address);
+    printf("Hobby                    : %s\n", hobby);
+    printf("No. HP                   : %s\n", phone_number);
 
     return 0;
 }
