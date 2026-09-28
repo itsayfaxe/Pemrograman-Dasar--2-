@@ -1,0 +1,7 @@
+# File hasil kompilasi C
+*.exe
+*.o
+
+# Cache Python
+__pycache__/
+*.pyc
