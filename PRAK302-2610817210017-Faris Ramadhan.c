@@ -1,28 +1,35 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int score;
-    
+
     scanf("%d", &score);
 
-    if (score < 0 || score > 100) {
+    if (score < 0 || score > 100)
+    {
         printf("Nilai tidak valid");
     }
-    else if (score >= 80) {
+    else if (score >= 80)
+    {
         printf("A");
     }
-    else if (score >= 70) {
+    else if (score >= 70)
+    {
         printf("B");
     }
-    else if (score >= 60) {
+    else if (score >= 60)
+    {
         printf("C");
     }
-    else if (score >= 50) {
+    else if (score >= 50)
+    {
         printf("D");
     }
-    else { 
+    else
+    {
         printf("E");
-    } 
+    }
 
     return 0;
 }

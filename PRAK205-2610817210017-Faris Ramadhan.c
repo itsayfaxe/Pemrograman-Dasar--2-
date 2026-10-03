@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(){
+int main()
+{
     int a, b, c, circumference, area;
     scanf("%d", &a);
     scanf("%d", &b);
-    
+
     c = sqrt((b * b) - (a * a));
     circumference = a + b + c;
     area = 0.5 * a * c;
@@ -17,4 +18,3 @@ int main(){
 
     return 0;
 }
-

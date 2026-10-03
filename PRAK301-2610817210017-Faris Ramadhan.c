@@ -1,23 +1,27 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int a, b, c, temp;
 
     scanf("%d", &a);
     scanf("%d", &b);
     scanf("%d", &c);
 
-    if (a > b) {
+    if (a > b)
+    {
         temp = a;
         a = b;
         b = temp;
     }
-    if (b > c) {
+    if (b > c)
+    {
         temp = b;
         b = c;
         c = temp;
     }
-    if (a > b){
+    if (a > b)
+    {
         temp = a;
         a = b;
         b = temp;

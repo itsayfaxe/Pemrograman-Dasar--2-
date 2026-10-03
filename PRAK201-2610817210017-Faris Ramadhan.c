@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     char name[50], nim[14], ttl[30], address[100], hobby[50], phone_number[20];
     int paralel;
 
