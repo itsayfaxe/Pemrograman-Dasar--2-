@@ -6,7 +6,7 @@ int main()
 
     scanf("%d", &a);
 
-    if (a < 0 || a > 100)
+    if (a < 0 || a >= 100)
     {
         printf("Anda Menginput Melebihi Limit Bilangan");
     }

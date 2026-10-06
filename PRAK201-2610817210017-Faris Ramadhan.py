@@ -6,6 +6,7 @@ address = input("Masukkan alamat Anda: ")
 hobby = input("Masukkan hobi Anda: ")
 phone_number = int(input("Masukkan nomor HP Anda: "))
 
+print("\n                         ")
 print("Nama                     : ", name)
 print("NIM                      : ", nim)
 print("Paralel                  : ", paralel)

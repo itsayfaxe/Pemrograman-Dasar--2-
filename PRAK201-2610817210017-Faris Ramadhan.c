@@ -26,6 +26,7 @@ int main()
     printf("Masukkan nomor HP Anda: ");
     scanf(" %[^\n]", phone_number);
 
+    printf("\n                         \n");
     printf("Nama                     : %s\n", name);
     printf("NIM                      : %s\n", nim);
     printf("Kelas Paralel            : %d\n", paralel);
